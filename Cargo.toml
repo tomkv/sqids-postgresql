@@ -22,12 +22,12 @@ pg19 = ["pgrx/pg19", "pgrx-tests/pg19" ]
 pg_test = []
 
 [dependencies]
-pgrx = "=0.19.1"
+pgrx = "=0.19.2"
 sqids = "0.4.2"
 thiserror = "2.0.18"
 
 [dev-dependencies]
-pgrx-tests = "=0.19.1"
+pgrx-tests = "=0.19.2"
 
 [profile.dev]
 panic = "unwind"
